@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4.0"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/btn_start_Stop"
+            android:layout_width="fill_parent"
+            android:layout_height="58dp"
+            android:text="@string/btn_start_test"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textAllCaps="false" />
+
+        <EditText
+            android:id="@+id/txt_temp_info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textSize="25dp"
+            android:gravity="left"
+            android:editable="false" />
+    </LinearLayout>
+
+</LinearLayout>
